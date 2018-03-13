@@ -7,6 +7,7 @@ def reverse_each_word(sentence)
   arr_sentence.each_with_index do |arr, index|
   arr_sentence[index].reverse << reverse_array
   end
+  puts "hello"
   binding.pry
   reverse_array
 end
