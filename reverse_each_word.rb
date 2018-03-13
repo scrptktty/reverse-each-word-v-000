@@ -13,7 +13,6 @@ require "pry"
 def reverse_each_word(sentence)
   arr_sentence = sentence.split
 
-  reversed_sentence = arr_sentence.collect {|x| x.reverse}
+  arr_sentence.collect {|x| x.reverse }.join(" ")
 
- reversed_sentence.join(" ")
 end
