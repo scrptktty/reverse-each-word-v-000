@@ -3,7 +3,7 @@ require "pry"
 # def reverse_each_word(sentence)
 #   reverse_array = []
 #   arr_sentence = sentence.split
-# 
+#
 #   arr_sentence.each do |x|
 #    reverse_array << x.reverse
 #   end
@@ -13,7 +13,8 @@ require "pry"
 def reverse_each_word(sentence)
   arr_sentence = sentence.split
 
-  arr_sentence.map do |x|
+  reversed_sentence = arr_sentence.map do |x|
    x.reverse
  end
+ reversed_sentence.join(" ")
 end
