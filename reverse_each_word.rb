@@ -16,5 +16,6 @@ def reverse_each_word(sentence)
   reversed_sentence = arr_sentence.map do |x|
    x.reverse
  end
+
  reversed_sentence.join(" ")
 end
